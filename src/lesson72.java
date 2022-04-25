@@ -13,7 +13,8 @@ public class lesson72 {
              System.out.println(line.substring(0,3));
              System.out.println(line.length());
          }else if (lineNum==1){
-             System.out.println(line.charAt(0)+"#"+"#");
+             System.out.println(line.charAt(0)+"#"+"#"); //  возвращает символ, расположенный по указанному индексу строки.
+                                                           // Индексы строк в Java начинаются с нуля.
          } else{
              System.out.println("#"+"#"+"#");
          }
