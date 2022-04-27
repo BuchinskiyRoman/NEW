@@ -1,9 +1,19 @@
 public class less80 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //Напишите программу на Java для поиска наибольшего элемента между первым,
+        // последним и средним значениями массива целых чисел (четной длины)
 
-        int[] first = {1,5,7,9,6,3};
-        for (int i = 0; i<=first.length-1; i++){
+        int[] first = {3,2,3,4,5,6,22};
 
+        if (first[0]>first[first.length/2]){
+            if (first[0]>first[first.length-1]){
+                System.out.println(first[0]);
+            }
+        } else if (first[first.length/2]>first[first.length-1]) {
+            System.out.println(first[first.length/2]);
+            }else {
+            System.out.println(first[first.length-1]);
         }
+
+
     }
 }
