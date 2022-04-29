@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class less94 {
+public class less94_HELP {
     public static void main(String[] args) { // 94. Напишите программу на Java, которая переставляет все элементы
                                                     // заданного массива целых чисел так, чтобы все нечетные числа
                                                         //  стояли перед всеми четными числами

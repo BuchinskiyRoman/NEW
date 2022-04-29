@@ -9,10 +9,8 @@ public class lesso91 {
         for (int i = 0; i<= num.length-1;i++){
             if (num[i]%2==0){
                 even+=1; // even++;
-            }else {
-                odd++;
             }
-        }
+            }
         System.out.println("Even: "+ even);
         System.out.print("Odd: "+ odd);
 
